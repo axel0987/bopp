@@ -21,7 +21,7 @@ client.setInterval(async () => {
 
   client.guilds.cache.forEach(async (guild) => {
     const botMember = guild.me
-    await botMember.setNickname(`$${symbol})
+    await botMember.setNickname(`$${symbol}`)
   }, 1*60*61)
 
 
